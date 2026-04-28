@@ -1,0 +1,5 @@
+# Flutter Web cross-origin avatars (same as product uploads).
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Cross-Origin-Resource-Policy "cross-origin"
+</IfModule>
